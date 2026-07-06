@@ -1,0 +1,317 @@
+{
+  "_meta": {
+    "description": "Seed dataset of REAL home-service companies operating on Aruba. Collected from public web listings and company sites. Verify each phone/address/hours before launch — details drift.",
+    "currency_note": "Prices should be entered/displayed in Aruban florin (AWG) with a USD equivalent (approx 1 USD = 1.79 AWG, pegged).",
+    "master_directory_to_scrape": "https://www.findyello.com/aruba/ — Aruba's main business directory; scrape by category (electrical-companies, plumbing-services, air-conditioning-equipment-systems-service-repairs, cleaners, pest-control-exterminator-services, etc.) to expand this list toward full island coverage.",
+    "collected": "2026-07-06",
+    "status": "starter set — expand to full coverage before public launch"
+  },
+  "categories": [
+    "electrician",
+    "plumber",
+    "ac_repair",
+    "pool_cleaning",
+    "landscaping",
+    "house_cleaning",
+    "pest_control",
+    "handyman",
+    "appliance_repair"
+  ],
+  "providers": [
+    {
+      "name": "N.V. Elmar",
+      "category": ["electrician"],
+      "phone": "+297 523-7147",
+      "address": "Wilhelminastraat 110, Oranjestad",
+      "website": "https://www.elmar.aw/",
+      "notes": "Aruba's utility / electrical authority. Troubleshooting department.",
+      "verified": false
+    },
+    {
+      "name": "Lucky Electricals",
+      "category": ["electrician"],
+      "phone": "+297 582-6811",
+      "address": "Ponton 82, Oranjestad",
+      "website": "https://www.luckyelectricals.com/",
+      "verified": false
+    },
+    {
+      "name": "Bello Electrical Services & More",
+      "category": ["electrician"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://www.electricalservicesaruba.com/",
+      "notes": "15+ years, commercial + residential electrical.",
+      "verified": false
+    },
+    {
+      "name": "Electrical Company Aruba N.V.",
+      "category": ["electrician"],
+      "phone": "",
+      "address": "Sta Helenastraat 10, Oranjestad",
+      "website": "",
+      "verified": false
+    },
+    {
+      "name": "Plumber Aruba VBA",
+      "category": ["plumber"],
+      "phone": "",
+      "address": "Santa Cruz",
+      "website": "https://plumberaruba.com/",
+      "notes": "Mon–Fri 8:00–16:00.",
+      "verified": false
+    },
+    {
+      "name": "AWATEC Leak Detection & Plumbing",
+      "category": ["plumber"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://www.awatecaruba.com/",
+      "notes": "Leak detection, pipe repair.",
+      "verified": false
+    },
+    {
+      "name": "Complete Plumbing Drain & Service N.V.",
+      "category": ["plumber"],
+      "phone": "",
+      "address": "Oranjestad",
+      "website": "https://www.facebook.com/CompletePlumbingDrainServiceNv/",
+      "notes": "Founded Oct 2010.",
+      "verified": false
+    },
+    {
+      "name": "PCS Aruba (Pipe Cleaning Service)",
+      "category": ["plumber"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://pcsaruba.com/",
+      "verified": false
+    },
+    {
+      "name": "CAMRO N.V.",
+      "category": ["plumber", "handyman"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://camroaruba.com/",
+      "notes": "Since 2009; solar water heaters + plumbing.",
+      "verified": false
+    },
+    {
+      "name": "ACC Aruba Climate Control",
+      "category": ["ac_repair"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://aircoaruba.com/",
+      "notes": "Since 1992. 24/7 emergency. DAIKIN & ECOX dealer.",
+      "verified": false
+    },
+    {
+      "name": "Eco Cooling Solutions Aruba",
+      "category": ["ac_repair"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://ecocoolingsolutions.net/",
+      "notes": "Repair, installation, maintenance, protective coating.",
+      "verified": false
+    },
+    {
+      "name": "ClimaTec Aruba",
+      "category": ["ac_repair"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://www.climatecaruba.com/",
+      "verified": false
+    },
+    {
+      "name": "Thodé Airco & Electrical Services N.V.",
+      "category": ["ac_repair", "electrician"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://www.thodeservices.com/",
+      "notes": "20+ years operating, 35+ years experience.",
+      "verified": false
+    },
+    {
+      "name": "Cool Breeze",
+      "category": ["ac_repair", "electrician"],
+      "phone": "",
+      "address": "Santa Barbola",
+      "website": "https://www.facebook.com/coolbreezearuba/",
+      "notes": "Since 1996. All brands.",
+      "verified": false
+    },
+    {
+      "name": "ConfortMax Aruba",
+      "category": ["ac_repair"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://www.comfortmaxaruba.com/",
+      "verified": false
+    },
+    {
+      "name": "Willy's Pools",
+      "category": ["pool_cleaning"],
+      "phone": "",
+      "address": "Aruba & Curacao",
+      "website": "https://willyspools.com/",
+      "notes": "Large commercial + residential pool maintenance/renovation.",
+      "verified": false
+    },
+    {
+      "name": "Aries Pool Services Aruba",
+      "category": ["pool_cleaning"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://www.facebook.com/",
+      "verified": false
+    },
+    {
+      "name": "Fantastic Gardens Aruba / Perfect Landscaping N.V.",
+      "category": ["landscaping"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://fantasticgardensaruba.com/",
+      "notes": "Maintains 150+ private & institutional gardens.",
+      "verified": false
+    },
+    {
+      "name": "Green Art Aruba",
+      "category": ["landscaping"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://greenartaruba.com/",
+      "notes": "Tree/palm care, lawn treatment, garden maintenance.",
+      "verified": false
+    },
+    {
+      "name": "Arubian Garden",
+      "category": ["landscaping"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://arubiangarden.com/",
+      "notes": "23+ years. Plants & garden accessories.",
+      "verified": false
+    },
+    {
+      "name": "Pimienta Services",
+      "category": ["house_cleaning"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://pimientaservices.com/",
+      "notes": "Residential, deep clean, windows, carpets, floors.",
+      "verified": false
+    },
+    {
+      "name": "365 Multi Cleaning",
+      "category": ["house_cleaning"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://365multicleaning.com/",
+      "notes": "Recurring daily/weekly/biweekly/monthly.",
+      "verified": false
+    },
+    {
+      "name": "Best Cleaning Aruba",
+      "category": ["house_cleaning"],
+      "phone": "",
+      "address": "Oranjestad",
+      "website": "https://www.facebook.com/arubabestcleaning/",
+      "notes": "15 years in local market.",
+      "verified": false
+    },
+    {
+      "name": "Total Services Aruba",
+      "category": ["house_cleaning"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://total-services.net/",
+      "verified": false
+    },
+    {
+      "name": "ARGOS Cleaning & Construction",
+      "category": ["house_cleaning", "handyman"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://argosaruba.com/",
+      "verified": false
+    },
+    {
+      "name": "Professional Pest Control (PPC)",
+      "category": ["pest_control"],
+      "phone": "",
+      "address": "Avenida Milio Croes 92, Oranjestad",
+      "website": "https://www.pestcontrolaruba.com/",
+      "notes": "35+ years. Termites, rodents, insects. Aruba & Bonaire.",
+      "verified": false
+    },
+    {
+      "name": "Krozendijk Pest Management & Supplies NV (KPM)",
+      "category": ["pest_control"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "",
+      "verified": false
+    },
+    {
+      "name": "D.A.L. Pest Control",
+      "category": ["pest_control"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "http://ww7.dalpestcontrol.net/",
+      "notes": "Commercial, industrial, residential.",
+      "verified": false
+    },
+    {
+      "name": "Primito Pest Control",
+      "category": ["pest_control"],
+      "phone": "",
+      "address": "Oranjestad",
+      "website": "https://www.facebook.com/primitopestcontrol/",
+      "notes": "Termite & pest control + retail store.",
+      "verified": false
+    },
+    {
+      "name": "Rentokil Aruba",
+      "category": ["pest_control"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://www.rentokil.com/aw/",
+      "verified": false
+    },
+    {
+      "name": "DG Maintenance & Construction",
+      "category": ["handyman", "plumber", "ac_repair", "landscaping", "house_cleaning"],
+      "phone": "",
+      "address": "Noord / Tierra del Sol area",
+      "website": "https://arubapropertymaintenance.com/",
+      "notes": "Multi-service property maintenance. 10+ years.",
+      "verified": false
+    },
+    {
+      "name": "Handyman297 Contractor",
+      "category": ["handyman", "plumber"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://www.handyman297.com/",
+      "verified": false
+    },
+    {
+      "name": "Aruba High Maintenance Contractor",
+      "category": ["handyman"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "http://www.arubahighmaintenancecontractor.com/",
+      "notes": "Est. 2021.",
+      "verified": false
+    },
+    {
+      "name": "Aruba Home Minders",
+      "category": ["handyman"],
+      "phone": "",
+      "address": "Aruba",
+      "website": "https://arubahomeminders.com/",
+      "notes": "Property management + on-call handyman.",
+      "verified": false
+    }
+  ]
+}
