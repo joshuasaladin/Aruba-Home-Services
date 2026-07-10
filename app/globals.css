@@ -91,6 +91,48 @@
   --color-sand-400: #fbbf24;
   --color-sand-500: #f59e0b;
   --color-sand-600: #d97706;
+
+  /* ── Coralux brand (sampled from the Coralux logo) ─────────────────────── */
+  /* Lagoon — the coral-teal of the logo mark and subtitle */
+  --color-lagoon-50: #f1f7f8;
+  --color-lagoon-100: #dfecef;
+  --color-lagoon-200: #c2dae0;
+  --color-lagoon-300: #9bc0ca;
+  --color-lagoon-400: #71a1b0;
+  --color-lagoon-500: #538598;
+  --color-lagoon-600: #4e7486;
+  --color-lagoon-700: #3f5e6e;
+  --color-lagoon-800: #35505d;
+  --color-lagoon-900: #2a3f4a;
+  /* Espresso — the deep warm brown of the CORALUX wordmark */
+  --color-espresso-100: #e9e4de;
+  --color-espresso-300: #b4a79b;
+  --color-espresso-500: #6b5d51;
+  --color-espresso-700: #4a3e35;
+  --color-espresso-800: #3d322b;
+  --color-espresso-900: #2c241f;
+  --color-espresso-950: #201b17;
+  /* Shell — the warm cream of the logo background */
+  --color-shell-50: #fbf9f5;
+  --color-shell-100: #f7f4ee;
+  --color-shell-200: #efeae0;
+  --color-shell-300: #e4dcce;
+  /* Dune — muted gold for sparing luxury accents */
+  --color-dune-300: #ddc9a3;
+  --color-dune-400: #cfb27f;
+  --color-dune-500: #c2a067;
+
+  /* Coralux type system — static fallbacks here; the .coralux-type scope below
+     swaps in the next/font families (var(--font-cinzel/-josefin) are defined on
+     the same element there, so the var() chain resolves — it cannot at :root). */
+  --font-display: "Trajan Pro", Georgia, "Times New Roman", serif;
+  --font-body: "Century Gothic", "Futura", ui-sans-serif, sans-serif;
+}
+
+/* Applied by app/coralux/layout.tsx alongside next/font's variable classes. */
+.coralux-type {
+  --font-display: var(--font-cinzel), "Trajan Pro", Georgia, "Times New Roman", serif;
+  --font-body: var(--font-josefin), "Century Gothic", "Futura", ui-sans-serif, sans-serif;
 }
 
 html {

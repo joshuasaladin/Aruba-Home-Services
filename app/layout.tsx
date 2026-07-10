@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
-import { getCurrentUser } from "@/lib/auth";
-import { isSupabaseConfigured, SITE_NAME } from "@/lib/config";
+import { SITE_NAME } from "@/lib/config";
 import { LocaleProvider } from "@/lib/i18n/LocaleProvider";
 import { getLocale } from "@/lib/i18n/server";
 
@@ -21,17 +18,12 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const [locale, user] = await Promise.all([getLocale(), getCurrentUser()]);
-  const demoMode = !isSupabaseConfigured();
+  const locale = await getLocale();
 
   return (
     <html lang={locale === "pap" ? "pap" : locale}>
-      <body className="flex min-h-screen flex-col">
-        <LocaleProvider locale={locale}>
-          <Header user={user} demoMode={demoMode} />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </LocaleProvider>
+      <body className="antialiased">
+        <LocaleProvider locale={locale}>{children}</LocaleProvider>
       </body>
     </html>
   );
